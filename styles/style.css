@@ -20,6 +20,9 @@
 .main{
     background-color:white;
 }
+.footer{
+    background-color:white;
+}
 .btn-primary{
     background: #FF900E;
     border-radius: 8px;
@@ -81,7 +84,7 @@
 }
 .banner-img{
     width: 1440px;
-    height: 100vh;
+    height: 90vh;
 }
 .banner-img>img{
 }
@@ -89,6 +92,7 @@
 /* feature-section */
 .feature-section{
     display: flex;
+    margin-bottom: 80px;
 }
 .feature-photo-album{
     display: grid;
@@ -208,5 +212,137 @@
     line-height: 26px;
     color: #727272;
 }
+/*-------facts section------- */
+.facts-box{
+    margin-top: 90px;
+}
+.facts-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;  
+}
+.facts-des{
+    font-weight: 400;
+   font-size: 16px;
+   color: #727272;
+   margin-bottom: 30px;
+}
+.facts-information-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.information-box{
+    width: 200px;
+    height: 160px;
+    padding: 20px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.information-box:hover{
+    background-color: aqua;
+    transition: 2s;  
+}
+.information-img{
+    text-align: center;
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+.counting{
+    font-weight: 600;
+     font-size: 40px;
+     color: #424242;
+     text-align: center;
+}
+.count-des{
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
 
+}
+/* sponsors-section */
+.sponsors-section{
+    margin-top: 90px;
+}
+.sponsors-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sponsors-des{
+    font-weight: 400;
+     font-size: 16px;
+     color: #727272;
+     text-align: center; 
+     margin-bottom: 40px;
+}
+.sponsors-boxes{
+    display: flex;
+    justify-content:space-between;
+}
+.sponsors-box{
+    mix-blend-mode: luminosity;
+}
+/* team-member-section */
+.team-members-section{
+    margin-top: 90px;
+}
+.members-section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.members-section-des{
+    font-weight: 400;
+     font-size: 16px;
+     color: #727272;
+      text-align: center;
+     margin-bottom: 60px;
+}
+.team-members{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.members{
+    width: 300px;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.members>img{
+    width: 100%;
+}
+.member-name{
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+    text-align: center;
+    margin-top: 20px;
+}
+.university-name{
+    font-weight: 500;
+     font-size: 16px;
+     color: #727272;
+    text-align: center;
+}
+/* footer-section */
+.footer-section{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    background: rgba(255, 144, 14, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+}
+.footer-des{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+}
 
